@@ -1,0 +1,14 @@
+.navbar-light {
+    height: 60px;
+}
+
+.navbar-light .navbar-brand {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    vertical-align: text-bottom;
+}
