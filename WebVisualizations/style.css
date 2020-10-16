@@ -1,6 +1,6 @@
 .navbar-light {
     height: 60px;
-    background-color: #4aaaa5;
+    background-color: white;
 }
 
 .navbar-light .navbar-brand {
@@ -49,11 +49,7 @@ hr {
 }
 
 
-@media (max-width: 600px) {
-    .navbar-dark .navbar-brand {
-      color: #fff;
-    }
-    
+@media (max-width: 1000px) {
 
     .no-gutter > [class*='col-'] {
         padding-right:0;
@@ -66,12 +62,11 @@ hr {
     }
 
     .navbar-light .navbar-brand {
-        background-color: #4aaaa5;
         color: white;
         font-size: x-large;
         font-weight: bold;
         width: 120px;
-        height: 60px;
+        height: 40px;
         text-align: center;
         vertical-align: text-bottom;
     }
