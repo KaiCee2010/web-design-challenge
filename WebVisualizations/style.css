@@ -1,3 +1,14 @@
+.container {
+    background-color: white;
+    margin: 50px;
+    padding: 40px;
+}
+
+#comparisontitle {
+    margin: 0px;
+    padding: 0px;
+}
+
 
 .card h1 {
     color: #4aaaa5;
@@ -90,6 +101,7 @@
         border: none;
     }
 
+    
     
 
 }
