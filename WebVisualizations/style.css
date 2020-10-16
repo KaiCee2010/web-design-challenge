@@ -5,10 +5,28 @@
     text-align: left;
 }
 
-.tnail {
-    width: 150px;
-    height: 100px;
+.card-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
 }
+
+
+img {
+    border-radius: 4px;
+    padding: 20px;
+    width: 350px;
+    height: 233px;
+  }
+
+.tnail {
+    width: 165px;
+    height: 110px;
+    padding: 5px
+}
+
+.tnail:hover {
+    box-shadow: 0 0 2px 1px grey;
+  }
 
 .selected {
     width: 150px;
@@ -81,6 +99,10 @@
         margin-left: 350px;
         margin-right: 350px;
         background-color: lightgray;
+    }
+
+    .card-body {
+        margin-top: 25px;
     }
     
 
