@@ -1,23 +1,14 @@
 
-
-
-
-/* hr { 
-    width: 98%;
-    margin-bottom: 30px
-    ;
-    
-  } */
-
-
-
-
-
 .card h1 {
     color: #4aaaa5;
+    font-weight: bold;
     text-align: left;
 }
 
+.links {
+    width: 175px;
+    height: 117px;
+}
 
 
 @media (min-width: 100px) {
@@ -50,9 +41,6 @@
 
 }
 
-/* @media (min-width: 500px) { */
-
-
 
 @media (min-width: 1000px){
     .navbar-light {
@@ -73,12 +61,12 @@
 
     body {
         margin-top: 100px;
+        margin-left: 350px;
+        margin-right: 350px;
         background-color: lightgray;
     }
+    
 
-    /* .row {
-        margin-left: 200px;
-        margin-right: 200px;
-    } */
+
 
 }
