@@ -59,6 +59,11 @@
     .navbar-light {
         background-color: #4aaaa5;
         color: white;
+        padding: 1px;
+        position: sticky;
+        top: 0;
+        right: 0;
+        left: 0;
     }
 
     .navbar-light .navbar-brand {
@@ -71,8 +76,13 @@
         vertical-align: text-bottom;
     }
 
+    #navbarNavDropdown {
+        background-color: white;
+   }
+
+   
+
     body {
-        margin-top: 40px;
         background-color: white;
     }
 
@@ -84,12 +94,55 @@
 
 }
 
-
 @media (min-width: 1000px){
     .navbar-light {
         height: 60px;
         background-color: white;
+    
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+        }
+        
+    
+    
+    .navbar-light .navbar-brand {
+        background-color: #4aaaa5;
+        color: white;
+        font-size: x-large;
+        font-weight: bold;
+        width: 120px;
+        height: 60px;
+        text-align: center;
+        vertical-align: text-bottom;
     }
+
+    body {
+        margin-top: 100px;
+        margin-left: 200px;
+        margin-right: 200px;
+        background-color: lightgray;
+    }
+
+    .card-body {
+        margin-top: 20px;
+    }
+
+/* @media (min-width: 1500px){
+    .navbar-light {
+        height: 60px;
+        background-color: white;
+    
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+              
+    
     
     .navbar-light .navbar-brand {
         background-color: #4aaaa5;
@@ -114,6 +167,6 @@
     }
     
 
-
+ */
 
 }
