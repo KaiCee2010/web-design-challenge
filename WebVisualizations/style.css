@@ -4,6 +4,18 @@
     padding: 40px;
 }
 
+.container h1 {
+    color: #4aaaa5;
+    font-weight: bold;
+    text-align: left;
+}
+
+.container h3 {
+    color: #4aaaa5;
+    font-weight: bold;
+    
+}
+
 #comparisontitle {
     margin: 0px;
     padding: 0px;
