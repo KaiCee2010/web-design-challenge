@@ -11,10 +11,6 @@
     font-weight: bold;
     
 }
-
-
-
-
 .card h1 {
     color: #4aaaa5;
     font-weight: bold;
@@ -36,15 +32,21 @@
     height: 233px;
   }
 
-.tnail {
+.thumbnail {
     width: 165px;
     height: 110px;
     padding: 5px
 }
 
-.tnail:hover {
+.thumbnail:hover {
     box-shadow: 0 0 2px 1px grey;
   }
+
+.table-hover tbody tr:hover td, 
+.table-hover tbody tr:hover th  {
+    background-color: #4aaaa5;
+    color: white;
+}
 
 .selected {
     width: 165px;
@@ -112,6 +114,8 @@
         margin-left: 10px;
         margin-right: 10px;
         padding: 10px;
+        font-size: small;
+    
     }
 
     .card {
@@ -160,7 +164,8 @@
     #datatable {
         padding: 50px;
         background-color: white;
-
+        font-size: small;
+        margin: auto;
      
     }
 
