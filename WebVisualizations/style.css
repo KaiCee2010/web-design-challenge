@@ -21,6 +21,13 @@
     padding: 0px;
 }
 
+#datatable {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+}
+
 
 .card h1 {
     color: #4aaaa5;
