@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Comparison</title>
+  <title>Max Temperature</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -44,49 +44,40 @@
         </div>
     </nav>
 
-    <div class="container" id="comparison">
-        <div class="row">
-            <div class="col-md-12">
-                <h1>Comparison: Latitude vs X</h1>
+    <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body visualsbody">
+              <h1 class="card-title">Max Temperature</h1>
+              <hr class="my-4">
+              <br>
+              <div class="card-text">
+                <img class="visuals" src="assets/images/lats_maxtemps.png"  alt="Max Temperature">
+                <br><br>
+                <p>
+                  For Latitude vs. Temperature plot, it shows that temperatures are at their highest nearest the equator.&nbsp;&nbsp;As the latitude increases (moves farther away from the equator), 
+                  the temperature decreases.&nbsp;&nbsp;As latitude increases (moves closer to the equator), the temperature increases.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h1 class="card-title">Visualizations</h1>
                 <hr class="my-4">
-            </div>            
-          </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p>Click any plot to get an in-dept analysis.</p>
-                <br>
-            </div>            
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-sm-12 text-center">
-            <h3>vs. Max Temperature</h3>
-            <br>
-            <a href="maxtemps.html"><img class="visuals" src="assets/images/lats_maxtemps.png" alt="Latitude vs. Max Temperatures"></a>
-            <br>
-          </div>
-          <div class="col-md-6 col-sm-12 text-center">
-            <h3>vs. Humidity</h3>
-            <br>
-            <a href="humidity.html"><img class="visuals" src="assets/images/lats_humidity.png" alt="Latitude vs. Humidity"></a>
-            <br>
-          </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 text-center">
-                <h3>vs. Cloudiness</h3>
-                <br>
-                <a href="cloudiness.html"><img class="visuals" src="assets/images/lats_cloudiness.png" alt="Latitude vs. Max Temperatures"></a>    
-                <br>
-            </div>
-                <br>
-                <div class="col-md-6 text-center">
-                <h3>vs. Wind Speed</h3>
-                <br>
-                <a href="wind_speed.html"><img class="visuals" src="assets/images/lats_wind_speed.png" alt="Latitude vs. Humidity"></a>
-                <br>
+                <p class="card-text">
+                  <a href="maxtemps.html"><img class="selected" src="assets/images/lats_maxtemps.png" alt="Max Temperature"></a>    
+                  <a href="humidity.html"><img class="thumbnail" src="assets/images/lats_humidity.png" alt="Humidity"></a>
+                  <a href="cloudiness.html"><img class="thumbnail" src="assets/images/lats_cloudiness.png" alt="Cloudiness"></a>    
+                  <a href="wind_speed.html"><img class="thumbnail" src="assets/images/lats_wind_speed.png" alt="Wind Speed"></a>
+                </p>
+              </div>
             </div>
           </div>
-      </div>   
+        </div>
 
 </body>
 </html>

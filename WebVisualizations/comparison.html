@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Humidity</title>
+  <title>Comparison</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -44,41 +44,49 @@
         </div>
     </nav>
 
-    <div class="row">
-        <div class="col-md-8">
-          <div class="card">
-            <div class="card-body visualsbody">
-              <h1 class="card-title">Humidity</h1>
-              <hr class="my-4">
-              <br>
-              <div class="card-text">
-                <img class="visuals" src="assets/images/lats_humidity.png"  alt="Humidity">
-                <br><br>
-                <p>
-                After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: 
-                temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part
-                of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
-                </p>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-              <div class="card-body">
-                <h1 class="card-title">Visualizations</h1>
+    <div class="container" id="comparison">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Comparison: Latitude vs X</h1>
                 <hr class="my-4">
-                <p class="card-text">
-                  <a href="maxtemps.html"><img class="thumbnail" src="assets/images/lats_maxtemps.png" alt="Max Temperature"></a>    
-                  <a href="humidity.html"><img class="selected" src="assets/images/lats_humidity.png" alt="Humidity"></a>
-                  <a href="cloudiness.html"><img class="thumbnail" src="assets/images/lats_cloudiness.png" alt="Cloudiness"></a>    
-                  <a href="wind_speed.html"><img class="thumbnail" src="assets/images/lats_wind_speed.png" alt="Wind Speed"></a>
-                </p>
-              </div>
-            </div>
+            </div>            
+          </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p>Click any plot to get an in-dept analysis.</p>
+                <br>
+            </div>            
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 text-center">
+            <h3>vs. Max Temperature</h3>
+            <br>
+            <a href="maxtemps.html"><img class="visuals-comparison" src="assets/images/lats_maxtemps.png" alt="Latitude vs. Max Temperatures"></a>
+            <br>
+          </div>
+          <div class="col-md-6 col-sm-12 text-center">
+            <h3>vs. Humidity</h3>
+            <br>
+            <a href="humidity.html"><img class="visuals-comparison" src="assets/images/lats_humidity.png" alt="Latitude vs. Humidity"></a>
+            <br>
           </div>
         </div>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <h3>vs. Cloudiness</h3>
+                <br>
+                <a href="cloudiness.html"><img class="visuals-comparison" src="assets/images/lats_cloudiness.png" alt="Latitude vs. Max Temperatures"></a>    
+                <br>
+            </div>
+                <br>
+                <div class="col-md-6 text-center">
+                <h3>vs. Wind Speed</h3>
+                <br>
+                <a href="wind_speed.html"><img class="visuals-comparison" src="assets/images/lats_wind_speed.png" alt="Latitude vs. Humidity"></a>
+                <br>
+            </div>
+          </div>
+      </div>   
 
 </body>
 </html>
