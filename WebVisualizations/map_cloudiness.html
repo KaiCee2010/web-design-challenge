@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Latitude vs. X</title>
+  <title>Heat Map - Cloudiness</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -55,45 +55,40 @@
           </ul>
         </div>
     </nav>
-    
-    <div class="row">
-      <div class="col-md-8">
-        <div class="card">
-          <div class="card-body">
-            <h1 class="card-title">Summary: Latitude vs. X</h1>
-            <hr class="my-4">
-              <img class="textwrapleft" src="assets/images/lats_maxtemps.png" alt="Maximum Temperatures">
-              <p class="card-text">
-              During the Weather project, city weather was analyzed in relation to the equator.&nbsp;&nbsp;The OpenWeather API was used to 
-              gather the temperature, humidity, cloudiness, and wind speed.&nbsp;&nbsp;The minimum number of cities used was 500.
-              <br><br>
-              The analysis was performed by gathering a minimum of 500 cities by random using the citipy library.&nbsp;&nbsp;After gathering the
-              cities, each city's information was gathered using the OpenWeather.&nbsp;&nbsp;Temperature, humidity, cloudiness, and wind speed were 
-              mapped vs. latitude using Matplotlib.  
-              <br><br>
-              This application displays the various plots along with explanations and descriptions.&nbsp;&nbsp;The source data is also provided.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center">
-          <div class="card-body">
-            <h1 class="card-title">Visualizations</h1>
-            <hr class="my-4">
-            <p class="card-text">
-              <a href="maxtemps.html"><img class="thumbnail" src="assets/images/lats_maxtemps.png" alt="Latitude vs. Max Temperatures"></a>    
-              <a href="humidity.html"><img class="thumbnail" src="assets/images/lats_humidity.png" alt="Latitude vs. Humidity"></a>
-              <a href="cloudiness.html"><img class="thumbnail" src="assets/images/lats_cloudiness.png" alt="Latitude vs. Max Temperatures"></a>    
-              <a href="wind_speed.html"><img class="thumbnail" src="assets/images/lats_wind_speed.png" alt="Latitude vs. Humidity"></a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
 
-    
-    
+    <div class="row">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body visualsbody">
+              <h1 class="card-title">Heat Map - Cloudiness</h1>
+              <hr class="my-4">
+              <br>
+              <div class="card-text">
+                <img class="map" src="assets/images/heat_map_cloudiness.png"  alt="Heat Map - Max Temperature">
+                <br><br>
+                <p>
+                  This heat map shows cloudiness for cities shows colors evenly spread across the world.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+              <div class="card-body">
+                <h1 class="card-title">Heat Maps</h1>
+                <hr class="my-4">
+                <p class="card-text">
+                  <a href="map_maxtemps.html"><img class="map_thumbnail" src="assets/images/heat_map_max_temp.png" alt="Max Temperature"></a>    
+                  <a href="map_humidity.html"><img class="map_thumbnail" src="assets/images/heat_map_humidity.png" alt="Humidity"></a>
+                  <a href="map_cloudiness.html"><img class="map_selected" src="assets/images/heat_map_cloudiness.png" alt="Cloudiness"></a>    
+                  <a href="map_wind_speed.html"><img class="map_thumbnail" src="assets/images/heat_map_wind_speed.png" alt="Wind Speed"></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
 </body>
 </html>
