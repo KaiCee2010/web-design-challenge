@@ -1,10 +1,19 @@
-## Welcome to GitHub Pages
+## Web Design Challenge
 
-You can use the [editor on GitHub](https://github.com/KaiCee2010/web-design-challenge/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+This homework assigment used data from the Python API project to create a web site with visualizations
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Latitude Website
+The Latitude website contains the following pages:
+- Latitude (index.html)
+- Plots
+    - Max Temperature
+    - Humidity
+    - Cloudiness
+    - Wind Speed
+- Comparison 
+- Data
+
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
