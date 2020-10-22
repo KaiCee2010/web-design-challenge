@@ -9,7 +9,7 @@ OpenWeather API were used to collect new data for cities.  New plots were create
 
 ### Latitude Website
 
-Here is the live link to the website:[Latitude Website](https://kaicee2010.github.io/web-design-challenge/WebVisualizations/index.html)  
+Here is the live link to the website: [Latitude Website](https://kaicee2010.github.io/web-design-challenge/WebVisualizations/index.html)  
 
 The Latitude website contains the following pages:
 - Latitude (index.html)
